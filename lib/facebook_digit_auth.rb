@@ -1,11 +1,8 @@
 require "facebook_digit_auth/version"
 
-class FacebookDigitAuth
-
-	def initialize
-	end
+module FacebookDigitAuth
   
-	def test
+	def self.test
 		puts "Here is first line for my gem"
 	end
 
