@@ -98,7 +98,6 @@ class FacebookClient
   end
 
   def profile_picture
-  	puts "basic information #{basic_information}"
   	photo_url(basic_information["facebook_user_id"])
   end
 
