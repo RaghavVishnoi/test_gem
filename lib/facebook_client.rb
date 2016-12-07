@@ -1,7 +1,5 @@
-require 'singleton'
-class FacebookClient
-	include Singleton
-	
+ class FacebookClient
+ 	
   def initialize(token)
     @client = Koala::Facebook::API.new(token)
   end

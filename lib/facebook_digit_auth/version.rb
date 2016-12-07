@@ -1,3 +1,3 @@
 module FacebookDigitAuth
-  VERSION = "0.1.1-beta-5"
+  VERSION = "0.1.1-beta-6"
 end
