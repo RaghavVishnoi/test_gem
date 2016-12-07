@@ -1,7 +1,7 @@
 require "facebook_digit_auth/version"
 module FacebookDigitAuth 
 
-	def test_method(params,type)
+	def self.test_method(params,type)
 		if type == 'facebook'
 			FacebookClient.new(params).data
 		elsif type == 'digit'
