@@ -1,5 +1,5 @@
 require "facebook_digit_auth/version"
-class FacebookDigitAuth 
+module FacebookDigitAuth 
 
 	def test_method(params,type)
 		if type == 'facebook'
