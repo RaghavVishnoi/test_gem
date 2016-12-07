@@ -23,7 +23,7 @@ class DigitsClient
   end
 
   def verified
-    if response["phone_number"] != @phone_no || response["id_str"] != @user_id response["access_token"]["token"] != @auth_token || response["access_token"]["secret"] != @auth_token_secret
+    if response["phone_number"] != @phone_no || response["id_str"] != @user_id || response["access_token"]["token"] != @auth_token || response["access_token"]["secret"] != @auth_token_secret
       	false
   	else
   		true
