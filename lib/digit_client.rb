@@ -1,4 +1,3 @@
-require 'httparty'
 
 class DigitsClient
   def initialize(digit_params)

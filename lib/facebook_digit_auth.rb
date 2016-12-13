@@ -1,4 +1,6 @@
 require "facebook_digit_auth/version"
+require 'httparty'
+
 module FacebookDigitAuth 
  	class Fd
 		def self.test_method(params,type)
