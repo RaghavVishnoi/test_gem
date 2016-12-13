@@ -1,5 +1,4 @@
 require "facebook_digit_auth/version"
-require 'httparty'
 
 module FacebookDigitAuth 
  	class Fd
