@@ -2,7 +2,7 @@ require 'rails/generators/active_record'
  
 module ActiveRecord
   module Generators
-    class CangemGenerator < ActiveRecord::Generators::Base
+    class CangemGenerator < Rails::Generators::Base
       argument :attributes, type: :array, default: [], banner: "field:type field:type"
 
       def copy_role_migration
